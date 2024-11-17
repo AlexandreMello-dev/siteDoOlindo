@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+h1 {
+    text-align: center;
+    margin: 2px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+
+p {
+    text-align: center;
+    margin: 10px;
+    font-size: 19px;
+}
+
+header, nav, main, aside, footer {
+    margin: 1px;
+}
+
+header {
+    background: black;
+    height:  110px;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+}
+
+nav {
+    
+    
+}
+
+main {
+    flex: 20 1 500px;
+    height: calc(100vh - 224px);
+    background-color: black;
+    
+}
+
+aside {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    flex: 1 1 100vw;
+    height: 100px;
+}
